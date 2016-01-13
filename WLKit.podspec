@@ -16,14 +16,13 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = WLKit框架 - 布局 网络请求 一些常用扩展类 ... 不断更新.
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/WLKit"
+  s.homepage         = "https://github.com/HotWordland/WLKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "巫龙" => "454763196@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/WLKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/HotWordland/WLKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
