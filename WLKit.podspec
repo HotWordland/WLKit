@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = "WLKit"
   s.version          = "0.1.0"
-  s.summary          = "WLKit框架 - 布局 网络请求 一些常用扩展类 ... 不断更新."
+  s.summary          = "WLKit框架"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = WLKit框架 - 布局 网络请求 一些常用扩展类 ... 不断更新.
+  s.description      = "WLKit框架 - 布局 网络请求 一些常用扩展类 ... 不断更新."
 
   s.homepage         = "https://github.com/HotWordland/WLKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

@@ -6,7 +6,7 @@
 //  Copyright © 2016年 HotWordLand. All rights reserved.
 //
 
-#import <WLKit/WLKit.h>
+#import "LYHTTPClient.h"
 
 @interface WLNetEnigne : LYHTTPClient
 /// URLString 应该是全url 上传单个文件
