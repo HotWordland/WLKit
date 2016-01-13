@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ADE5F2CD2B766CB14D64BFB3 /* Pods_WLKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848DDEDABD58C1F3923A43AD /* Pods_WLKit_Tests.framework */; };
-		FE8BD4ED1C464F5B0022EEF1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */; };
+		FE4CC8831C46ACCA004D1FEA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */; };
 		FE8BD4EF1C4662FF0022EEF1 /* WLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EE1C4662FF0022EEF1 /* WLKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,8 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4CC8831C46ACCA004D1FEA /* libsqlite3.tbd in Frameworks */,
 				FE8BD4EF1C4662FF0022EEF1 /* WLKit.framework in Frameworks */,
-				FE8BD4ED1C464F5B0022EEF1 /* libsqlite3.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
