@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '044580CB352073DE66D5FDA6'
+               BlueprintIdentifier = 'C4E584BC8A92EFB46482BCC2'
                BlueprintName = 'FBSnapshotTestCase'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FBSnapshotTestCase.framework'>
