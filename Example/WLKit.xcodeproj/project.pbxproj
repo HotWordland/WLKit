@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ADE5F2CD2B766CB14D64BFB3 /* Pods_WLKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848DDEDABD58C1F3923A43AD /* Pods_WLKit_Tests.framework */; };
+		FE8BD4EB1C464E880022EEF1 /* WLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EA1C464E880022EEF1 /* WLKit.framework */; };
+		FE8BD4ED1C464F5B0022EEF1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		C4D991E01E77E473E9D09A9E /* Pods-WLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9A67385195DBC847AEE6478 /* Pods-WLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD07F07F30198AF889BAAC00 /* Pods_WLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BD4EA1C464E880022EEF1 /* WLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WLKit.framework; path = "Pods/../build/Debug-iphoneos/WLKit.framework"; sourceTree = "<group>"; };
+		FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8BD4ED1C464F5B0022EEF1 /* libsqlite3.tbd in Frameworks */,
+				FE8BD4EB1C464E880022EEF1 /* WLKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -128,6 +134,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */,
+				FE8BD4EA1C464E880022EEF1 /* WLKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -513,6 +521,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLKit/WLKit-Prefix.pch";
 				INFOPLIST_FILE = "WLKit/WLKit-Info.plist";
@@ -529,6 +541,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLKit/WLKit-Prefix.pch";
 				INFOPLIST_FILE = "WLKit/WLKit-Info.plist";
