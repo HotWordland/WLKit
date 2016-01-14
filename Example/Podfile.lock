@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - WLKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WLKit (from `../`)
+
+EXTERNAL SOURCES:
+  WLKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  WLKit: a4677e2c6c9055c74114e2272ec944a89117e516
+
+COCOAPODS: 0.39.0

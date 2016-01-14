@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		02E0597E61B920DC4C10BED7 /* Pods_WLKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07F07F30198AF889BAAC00 /* Pods_WLKit_Example.framework */; };
+		0FD95F7D1C477389004D3053 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD95F7C1C477389004D3053 /* Launch Screen.storyboard */; };
+		0FD95F811C477499004D3053 /* LayoutBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD95F801C477498004D3053 /* LayoutBaseVC.m */; };
+		0FD95F841C4774AE004D3053 /* IndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD95F831C4774AE004D3053 /* IndexVC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -40,6 +42,11 @@
 /* Begin PBXFileReference section */
 		06EAA6DDD4E3DE4E406156BE /* Pods-WLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0DE52903ADF6FB53904A4B2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FD95F7C1C477389004D3053 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0FD95F7F1C477498004D3053 /* LayoutBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutBaseVC.h; sourceTree = "<group>"; };
+		0FD95F801C477498004D3053 /* LayoutBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutBaseVC.m; sourceTree = "<group>"; };
+		0FD95F821C4774AE004D3053 /* IndexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexVC.h; sourceTree = "<group>"; };
+		0FD95F831C4774AE004D3053 /* IndexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexVC.m; sourceTree = "<group>"; };
 		29DC8AC922A378378CEDD943 /* WLKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLKit.podspec; path = ../WLKit.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WLKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +58,6 @@
 		6003F59B195388D20070C39A /* WLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* WLKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,6 +116,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		0FD95F7E1C477482004D3053 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				0FD95F7F1C477498004D3053 /* LayoutBaseVC.h */,
+				0FD95F801C477498004D3053 /* LayoutBaseVC.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -151,11 +165,12 @@
 		6003F593195388D20070C39A /* Example for WLKit */ = {
 			isa = PBXGroup;
 			children = (
+				0FD95F7E1C477482004D3053 /* Layout */,
 				6003F59C195388D20070C39A /* WLAppDelegate.h */,
 				6003F59D195388D20070C39A /* WLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WLViewController.h */,
-				6003F5A6195388D20070C39A /* WLViewController.m */,
+				0FD95F821C4774AE004D3053 /* IndexVC.h */,
+				0FD95F831C4774AE004D3053 /* IndexVC.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -170,6 +185,7 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* WLKit-Prefix.pch */,
+				0FD95F7C1C477389004D3053 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -288,6 +304,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0FD95F7D1C477389004D3053 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,8 +418,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* WLViewController.m in Sources */,
+				0FD95F841C4774AE004D3053 /* IndexVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0FD95F811C477499004D3053 /* LayoutBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
