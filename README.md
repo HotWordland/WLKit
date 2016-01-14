@@ -37,7 +37,7 @@ WLKit框架 - 布局 网络请求 一些常用扩展类 不断更新
 
 ```
 # result
-![](https://github.com/HotWordland/WLFrameWorksUIRun/blob/master/shot/layout-1.png)
+![](https://github.com/HotWordland/WLKit/blob/master/Example/shot/layout-1.png)
 
 #网络请求
 请求是基于AFNetWork的封装 这个就不多说了 自己选用了一个比较好的封装LYHTTPClient作为扩展
