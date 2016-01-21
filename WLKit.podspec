@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "WL框架 - 布局 网络请求 一些常用扩展类 ... 不断更新."
+  s.description      = "WL框架 - 包含 布局 网络请求 等一些常用扩展类 ... 不断更新 让项目一次集成常用框架 快速开发."
 
   s.homepage         = "https://github.com/HotWordland/WLKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
