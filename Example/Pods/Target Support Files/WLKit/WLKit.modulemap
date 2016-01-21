@@ -1,6 +1,0 @@
-framework module WLKit {
-  umbrella header "WLKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

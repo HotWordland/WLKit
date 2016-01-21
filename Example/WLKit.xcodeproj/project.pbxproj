@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E0597E61B920DC4C10BED7 /* Pods_WLKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07F07F30198AF889BAAC00 /* Pods_WLKit_Example.framework */; };
 		0FD95F7D1C477389004D3053 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD95F7C1C477389004D3053 /* Launch Screen.storyboard */; };
 		0FD95F811C477499004D3053 /* LayoutBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD95F801C477498004D3053 /* LayoutBaseVC.m */; };
 		0FD95F841C4774AE004D3053 /* IndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD95F831C4774AE004D3053 /* IndexVC.m */; };
+		22C6AACF99D3451B01CD4C16 /* libPods-WLKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368E0CBBE93B8850AE2BDCF /* libPods-WLKit_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,9 +24,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ADE5F2CD2B766CB14D64BFB3 /* Pods_WLKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848DDEDABD58C1F3923A43AD /* Pods_WLKit_Tests.framework */; };
+		B6AA2889F2D4376F7A5EDD91 /* libPods-WLKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B07BF90B9350762A5D6C96B /* libPods-WLKit_Example.a */; };
 		FE4CC8831C46ACCA004D1FEA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */; };
-		FE8BD4EF1C4662FF0022EEF1 /* WLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BD4EE1C4662FF0022EEF1 /* WLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06EAA6DDD4E3DE4E406156BE /* Pods-WLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		074E5482969A0A6F3D1D1E90 /* Pods-WLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0DE52903ADF6FB53904A4B2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0FD95F7C1C477389004D3053 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0FD95F7F1C477498004D3053 /* LayoutBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutBaseVC.h; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		0FD95F821C4774AE004D3053 /* IndexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexVC.h; sourceTree = "<group>"; };
 		0FD95F831C4774AE004D3053 /* IndexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexVC.m; sourceTree = "<group>"; };
 		29DC8AC922A378378CEDD943 /* WLKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLKit.podspec; path = ../WLKit.podspec; sourceTree = "<group>"; };
+		3153DAE964525BCB0A8EA0D1 /* Pods-WLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WLKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,13 +65,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		81C7227B1984667FFAD87EBF /* Pods-WLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		848DDEDABD58C1F3923A43AD /* Pods_WLKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B07BF90B9350762A5D6C96B /* libPods-WLKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B72B19B34C4FE01B8C34064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C4D991E01E77E473E9D09A9E /* Pods-WLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D9A67385195DBC847AEE6478 /* Pods-WLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD07F07F30198AF889BAAC00 /* Pods_WLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9368E0CBBE93B8850AE2BDCF /* libPods-WLKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F30EDEA4A5C05D79214FF7 /* Pods-WLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AEF88053871A25A677C7B3A9 /* Pods-WLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE8BD4EA1C464E880022EEF1 /* WLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WLKit.framework; path = "Pods/../build/Debug-iphoneos/WLKit.framework"; sourceTree = "<group>"; };
 		FE8BD4EC1C464F5B0022EEF1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FE8BD4EE1C4662FF0022EEF1 /* WLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WLKit.framework; path = "Pods/../build/Debug-iphoneos/WLKit.framework"; sourceTree = "<group>"; };
@@ -83,11 +82,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE4CC8831C46ACCA004D1FEA /* libsqlite3.tbd in Frameworks */,
-				FE8BD4EF1C4662FF0022EEF1 /* WLKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				02E0597E61B920DC4C10BED7 /* Pods_WLKit_Example.framework in Frameworks */,
+				B6AA2889F2D4376F7A5EDD91 /* libPods-WLKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,24 +96,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ADE5F2CD2B766CB14D64BFB3 /* Pods_WLKit_Tests.framework in Frameworks */,
+				22C6AACF99D3451B01CD4C16 /* libPods-WLKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B856F0A6066D0CF02C30040 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C4D991E01E77E473E9D09A9E /* Pods-WLKit_Example.debug.xcconfig */,
-				81C7227B1984667FFAD87EBF /* Pods-WLKit_Example.release.xcconfig */,
-				D9A67385195DBC847AEE6478 /* Pods-WLKit_Tests.debug.xcconfig */,
-				06EAA6DDD4E3DE4E406156BE /* Pods-WLKit_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		0FD95F7E1C477482004D3053 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +110,17 @@
 				0FD95F801C477498004D3053 /* LayoutBaseVC.m */,
 			);
 			name = Layout;
+			sourceTree = "<group>";
+		};
+		5C8E9EFEA80C0B03D7E755B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF88053871A25A677C7B3A9 /* Pods-WLKit_Example.debug.xcconfig */,
+				94F30EDEA4A5C05D79214FF7 /* Pods-WLKit_Example.release.xcconfig */,
+				074E5482969A0A6F3D1D1E90 /* Pods-WLKit_Tests.debug.xcconfig */,
+				3153DAE964525BCB0A8EA0D1 /* Pods-WLKit_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -133,7 +131,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				0B856F0A6066D0CF02C30040 /* Pods */,
+				5C8E9EFEA80C0B03D7E755B3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,8 +154,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FD07F07F30198AF889BAAC00 /* Pods_WLKit_Example.framework */,
-				848DDEDABD58C1F3923A43AD /* Pods_WLKit_Tests.framework */,
+				8B07BF90B9350762A5D6C96B /* libPods-WLKit_Example.a */,
+				9368E0CBBE93B8850AE2BDCF /* libPods-WLKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,12 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "WLKit_Example" */;
 			buildPhases = (
-				A80B329AC48CA0F6645E5F0F /* Check Pods Manifest.lock */,
+				F5841B755DA595896DCD8E64 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F4198C492D06D9AE7C7ED565 /* Embed Pods Frameworks */,
-				B820B9634AC46C1EBF9496D8 /* Copy Pods Resources */,
+				4B7612515ECD7E5FAB898E76 /* Embed Pods Frameworks */,
+				ED20AC988BEB26299C2DBF16 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,12 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "WLKit_Tests" */;
 			buildPhases = (
-				5E4096BDA95A3CCF1DF58E48 /* Check Pods Manifest.lock */,
+				BD569B325F53E42777254245 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9C020F6652D4923A6BF6DA00 /* Embed Pods Frameworks */,
-				00F5774B0D8B70FCB08892B3 /* Copy Pods Resources */,
+				93A3C190230634F5969807B2 /* Embed Pods Frameworks */,
+				53E16A735A3601D5B9BEDEBC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,7 +318,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00F5774B0D8B70FCB08892B3 /* Copy Pods Resources */ = {
+		4B7612515ECD7E5FAB898E76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E16A735A3601D5B9BEDEBC /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,22 +348,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E4096BDA95A3CCF1DF58E48 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9C020F6652D4923A6BF6DA00 /* Embed Pods Frameworks */ = {
+		93A3C190230634F5969807B2 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,7 +363,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLKit_Tests/Pods-WLKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A80B329AC48CA0F6645E5F0F /* Check Pods Manifest.lock */ = {
+		BD569B325F53E42777254245 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,7 +378,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B820B9634AC46C1EBF9496D8 /* Copy Pods Resources */ = {
+		ED20AC988BEB26299C2DBF16 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,19 +393,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F4198C492D06D9AE7C7ED565 /* Embed Pods Frameworks */ = {
+		F5841B755DA595896DCD8E64 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLKit_Example/Pods-WLKit_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -537,7 +535,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D991E01E77E473E9D09A9E /* Pods-WLKit_Example.debug.xcconfig */;
+			baseConfigurationReference = AEF88053871A25A677C7B3A9 /* Pods-WLKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -557,7 +555,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81C7227B1984667FFAD87EBF /* Pods-WLKit_Example.release.xcconfig */;
+			baseConfigurationReference = 94F30EDEA4A5C05D79214FF7 /* Pods-WLKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -577,7 +575,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9A67385195DBC847AEE6478 /* Pods-WLKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 074E5482969A0A6F3D1D1E90 /* Pods-WLKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -601,7 +599,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06EAA6DDD4E3DE4E406156BE /* Pods-WLKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 3153DAE964525BCB0A8EA0D1 /* Pods-WLKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

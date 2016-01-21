@@ -1,13 +1,9 @@
 PODS:
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
-    - FBSnapshotTestCase/Core
-  - WLKit (0.1.0)
+  - JSONModel (1.2.0)
+  - WLKit (0.1.0):
+    - JSONModel
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - WLKit (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,7 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  WLKit: a4677e2c6c9055c74114e2272ec944a89117e516
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  WLKit: 366fae328bb6756ed981f4c1d51e2e4278f3f5a0
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 53801dca2d0b46de23b1b243b8f3bd6c859ac3fa
+
+COCOAPODS: 1.0.0.beta.2

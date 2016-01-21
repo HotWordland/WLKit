@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
-target 'WLKit_Example', :exclusive => true do
+target 'WLKit_Example' do
   pod "WLKit", :path => "../"
 end
 
-target 'WLKit_Tests', :exclusive => true do
+target 'WLKit_Tests' do
   pod "WLKit", :path => "../"
 
-  pod 'FBSnapshotTestCase'
+#  pod 'FBSnapshotTestCase'
 end

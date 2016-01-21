@@ -22,5 +22,10 @@
       "Pod/Assets/*.png"
     ]
   },
+  "dependencies": {
+    "JSONModel": [
+
+    ]
+  },
   "libraries": "sqlite3"
 }
