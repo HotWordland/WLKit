@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/AFNetworking/AFNetworking/AFURLResponseSerialization.h
