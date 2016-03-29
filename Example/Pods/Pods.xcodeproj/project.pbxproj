@@ -21,14 +21,11 @@
 		2F8D135BE069298B3FE7C13988B2CF08 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039D659C8B14F28F9701E7AB6160F3A /* JSONModelClassProperty.m */; };
 		37A3F3B4DF6D4B6012E057B22670146F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		393E2E501D0B38AE7DD535362026926D /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE64D4C06A1AC82784D1E7387B2184E /* JSONAPI.m */; };
-		3AB69BF4603A9B1293CC82ADC1B49980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD502455E60F56C065C234519CBB4EDE /* README.md */; };
 		400E28A6F9CA5E5D5071B3753024289D /* Pods-WLKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197E06559139CA306E37BAFF43463B56 /* Pods-WLKit_Tests-dummy.m */; };
 		403C0FA29A558D085611F6A799F09C8B /* license in Sources */ = {isa = PBXBuildFile; fileRef = 50FD2AA4FEC44FA6CFD61D4079A2E18A /* license */; };
 		44E769D94F10CE963F02E58472D5B5BA /* ConstraintUtilities+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 44712AD1FFFDD7D43BD263556C506896 /* ConstraintUtilities+Layout.m */; };
-		484CAD0F054610053E8F28160F6CD75C /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EE2CBBD9E4BD579959094BFDEE8C9B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		491445B1395D4B32D537339A68FBC525 /* WLCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 010C5E5B7560FEEB557AB16C529B0611 /* WLCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00ECEA49A3C9FA05B807495E73BE3931 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		505821820F0F7B45B33F718D6F1DC2C0 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8C403AE68B02C3663B76A94721740 /* LICENSE */; };
 		52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEA1796BC1C30B1DE6C1F5EE8BF1CA3 /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54D7B4A5F34DBF2837E5253B05360357 /* ConstraintUtilities+Description.h in Headers */ = {isa = PBXBuildFile; fileRef = FD754165FBA52CFC43049B38BB33DAD6 /* ConstraintUtilities+Description.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59DFAF46993F71E88A7336D2A8A3731D /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CFFBC5BC888F7735EF7154D18B89D /* JSONHTTPClient.m */; };
@@ -55,14 +52,10 @@
 		91EF4A344743E2AFB3B4DBB6696BCF91 /* DeviceJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 465FDA3414E5614A1482CC07AA79F98F /* DeviceJudge.m */; };
 		9A06106C9FF8BB342B8E5203130F2684 /* readme.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 4F8139A241BFFEA2671810F284FFB04E /* readme.markdown */; };
 		9AFF444C347498E157090C0367174FC8 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1041A44E57DE88536974E29364AE6B86 /* View-Nametag.m */; };
-		9B19DEFCB7A7BA43348FD872E6E2B537 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 81771DDF78997B535370EB30262E6310 /* YYCache.m */; };
 		A049B322C75DF1C944935D7D0D7F1E7E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6BC7848CEF9E23C9AA646C55850052 /* JSONModelError.m */; };
 		A05AB161C8773E1EB8014B51BEB5AAAB /* ConstraintUtilities+CreationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D247E4DB10DEDC30E3507E9D71D1D72 /* ConstraintUtilities+CreationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0B95F73509E29056A976D025EA30F9F /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FDB55B6F0DA0F4A170B25E77A8A41C /* YYKVStorage.m */; };
 		A0EBA2709A9DFD1AD4D794D398611E2B /* View-Nametag.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C239677F20AF13B533F1454C49FE61 /* View-Nametag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABB45A76A3853D1D6D75669E98916B70 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A110C403A38C899B8FC352AAFE7A176D /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF1D9D37928209C90D58A8631153C547 /* NSDictionary+FixNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E674934590A2BEFE3866B909ED427 /* NSDictionary+FixNSNull.m */; };
-		B111FFEDB7D2A8A373945339284FBA90 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B43ADE8C82574543AA0D9150948F4EE /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A93D1507AFA561266B313E90961123 /* ConstraintUtilities+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9143642B9D8F11DA8AECD29721FB65F6 /* ConstraintUtilities+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A032955935C1E4A997C090695782BAAB /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B863AAA3A6D1A234BFEAF5B24DF3E92F /* WLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 482AC832FB724E7C6AE3E78347613FDB /* WLCommon.m */; };
@@ -74,12 +67,9 @@
 		CFA55444DFE023AA9A4D0A656297F8F5 /* ConstraintUtilities+Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A94EAA83CA7A68B097435E213955B9 /* ConstraintUtilities+Matching.m */; };
 		D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EEB87D68A0A31A5FDBE56AEAA0D009 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3406C5516CF58684900B49D42FFCDC6 /* ConstraintUtilities+Install.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6567E992D69A065053360109606A4 /* ConstraintUtilities+Install.m */; };
-		D836C353E193AB7D9A8D97FD0E3C554D /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9974D72B0FA7CB35499C3EC9CA10244F /* YYDiskCache.m */; };
 		D9456295F6640D1B66ED32B3E76BAF94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		DDDEB42845118CFE5A474A5AFADA200F /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C3E849CA34DFE037BF22DEDFA55385 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFC49A7F21B0A3A271B013359C4753A8 /* NSObject-Description.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C75968B877DB9B84F99A4B7D544F5E /* NSObject-Description.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E36CBC43936647EC49D3D3426A827AED /* UICatalogWL.h in Headers */ = {isa = PBXBuildFile; fileRef = C351E00367F1AF4A08FA77D2BEECFE26 /* UICatalogWL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6D7BC392EA6F7DC88E61F05C8FA6ACA /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A6AEBAB87E8CD5DD60C51B48EED1D1 /* YYMemoryCache.m */; };
 		EE27B8D800BD5CBC5A23FACF87210920 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9371E95B6338D34B73F6B3C85F7A9F3 /* JSONModel-dummy.m */; };
 		EF9C40DA0C3137213897444A2A8218C2 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CDFE440427E0BF063CDEBC8BE31D04 /* UIView+Toast.m */; };
 		F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A28C311A3D27213DEB4B1175FC59F6D /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -175,38 +165,29 @@
 		53C239677F20AF13B533F1454C49FE61 /* View-Nametag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View-Nametag.h"; sourceTree = "<group>"; };
 		57D9F097FA7F41D7C5BE15A552F80414 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA1796BC1C30B1DE6C1F5EE8BF1CA3 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
-		60C3E849CA34DFE037BF22DEDFA55385 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
 		6276C2135AB6AE7CAC80FE9D78B6D6F8 /* NSDictionary+FixNSNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FixNSNull.h"; sourceTree = "<group>"; };
-		62A6AEBAB87E8CD5DD60C51B48EED1D1 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
-		62FDB55B6F0DA0F4A170B25E77A8A41C /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
 		7039D659C8B14F28F9701E7AB6160F3A /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		7215E5FB2A3AF65044EA10E843B93D16 /* NSObject-Nametag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject-Nametag.h"; sourceTree = "<group>"; };
 		728C2CD2E250C210B1198003DE9C48F2 /* ConstraintUtilities+Matching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Matching.h"; sourceTree = "<group>"; };
 		739AE1A63BDA9EF913A833CE8A8D65FC /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
 		7D6DC78BDF4C7D39AE97D5CF8BE2EB1B /* WLKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLKit.xcconfig; sourceTree = "<group>"; };
 		80635BA7EF56E6CC85FA5BD0A67FB294 /* Pods-WLKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		81771DDF78997B535370EB30262E6310 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
 		85C0405BA2BF8B7821693D2A337030BE /* Pods-WLKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8A1FED26B23928A1C652EE63BB04D9EA /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		8A4555C9CCCDE3A8C47BAD6028A99B11 /* ResourceBundle-WLKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WLKit-Info.plist"; sourceTree = "<group>"; };
 		8ACB9542E95AA3B634DD0C1AFB49C7BC /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSView+BackgroundColor.m"; sourceTree = "<group>"; };
 		8B1630AD4657B842E99F2C088BA183C5 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
-		8B43ADE8C82574543AA0D9150948F4EE /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
 		8D247E4DB10DEDC30E3507E9D71D1D72 /* ConstraintUtilities+CreationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+CreationMacros.h"; sourceTree = "<group>"; };
 		8D615DCABE7A6CEA22A7A013FBF0962F /* WLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WLKit.h; sourceTree = "<group>"; };
 		8EBDEEF087336FBB0ED3061D1CBC0041 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
-		8FB8C403AE68B02C3663B76A94721740 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		91390CEC11641FD54E68E84566DDC02A /* navigationBarBg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = navigationBarBg.png; sourceTree = "<group>"; };
 		9143642B9D8F11DA8AECD29721FB65F6 /* ConstraintUtilities+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Utility.h"; sourceTree = "<group>"; };
 		92A94EAA83CA7A68B097435E213955B9 /* ConstraintUtilities+Matching.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Matching.m"; sourceTree = "<group>"; };
 		958C43B75BCE75126B7F3DF16EA586ED /* ConstraintUtilities+Description.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Description.m"; sourceTree = "<group>"; };
-		9974D72B0FA7CB35499C3EC9CA10244F /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
 		9E976D8074CB057646B0AAE9AE605805 /* ConstraintUtilities+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Layout.h"; sourceTree = "<group>"; };
 		A032955935C1E4A997C090695782BAAB /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
-		A110C403A38C899B8FC352AAFE7A176D /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
 		A3958E70D18926AE39EE3F9CD742C8A4 /* Pods-WLKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A46EB050402B6E3F10BBCE1722B55071 /* WLProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WLProgressHUD.m; sourceTree = "<group>"; };
-		A4EE2CBBD9E4BD579959094BFDEE8C9B /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
 		A9BEECF2C58880DC621354EEB28282CB /* Pods-WLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A9D9C1172B4B5B83F05A33184A233F7B /* NSObject-Description.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Description.m"; sourceTree = "<group>"; };
 		AF24472C02BF2526271D78198C62B1E2 /* WLProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WLProgressHUD.h; sourceTree = "<group>"; };
@@ -224,7 +205,6 @@
 		D9371E95B6338D34B73F6B3C85F7A9F3 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		DA8EFD9E21E51A6D81B0C141C61A21AC /* WLKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLKit-prefix.pch"; sourceTree = "<group>"; };
 		DBA116BBD9E0CD04ABA482D414C65C2F /* UIImage+WLCatalog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WLCatalog.m"; sourceTree = "<group>"; };
-		DD502455E60F56C065C234519CBB4EDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD6BC7848CEF9E23C9AA646C55850052 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 		E53636E8DC402FD19D883C5EC39EC3A6 /* ConstraintPack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConstraintPack.h; sourceTree = "<group>"; };
 		E91939033DE35520CDB875EB721AF590 /* Pods-WLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -278,16 +258,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0363F2DA68F10E7582139ED3C7C059A1 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				8FB8C403AE68B02C3663B76A94721740 /* LICENSE */,
-				DD502455E60F56C065C234519CBB4EDE /* README.md */,
-				D3D667BBBC4E966B133B92CC36F49947 /* YYCache */,
-			);
-			path = YYCache;
-			sourceTree = "<group>";
-		};
 		037AE86ABB62D6E110BA97CA54E0A853 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,7 +503,6 @@
 				A2C0E083709B953E1C7C1AAAD64EC44E /* Constraints Pack */,
 				88E2148756DE9B2F321AB10A6193D916 /* ProgressHUD */,
 				36EDFD070CEBA2230E0F41F6204B10A2 /* Toast */,
-				0363F2DA68F10E7582139ED3C7C059A1 /* YYCache */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -578,21 +547,6 @@
 			);
 			name = WLKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		D3D667BBBC4E966B133B92CC36F49947 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				60C3E849CA34DFE037BF22DEDFA55385 /* YYCache.h */,
-				81771DDF78997B535370EB30262E6310 /* YYCache.m */,
-				A4EE2CBBD9E4BD579959094BFDEE8C9B /* YYDiskCache.h */,
-				9974D72B0FA7CB35499C3EC9CA10244F /* YYDiskCache.m */,
-				8B43ADE8C82574543AA0D9150948F4EE /* YYKVStorage.h */,
-				62FDB55B6F0DA0F4A170B25E77A8A41C /* YYKVStorage.m */,
-				A110C403A38C899B8FC352AAFE7A176D /* YYMemoryCache.h */,
-				62A6AEBAB87E8CD5DD60C51B48EED1D1 /* YYMemoryCache.m */,
-			);
-			path = YYCache;
 			sourceTree = "<group>";
 		};
 		DD9DC0BC137E14024B20F963FCA24C21 /* Pod */ = {
@@ -667,10 +621,6 @@
 				024E58A3894EC5C1A2F9BF27DEEFC63F /* WLKit.h in Headers */,
 				01E94669DB101CE2D7D793B8B47D01BF /* WLKitPrefix.h in Headers */,
 				1B794CAE54A1F363DA9ED643B45B20FE /* WLProgressHUD.h in Headers */,
-				DDDEB42845118CFE5A474A5AFADA200F /* YYCache.h in Headers */,
-				484CAD0F054610053E8F28160F6CD75C /* YYDiskCache.h in Headers */,
-				B111FFEDB7D2A8A373945339284FBA90 /* YYKVStorage.h in Headers */,
-				ABB45A76A3853D1D6D75669E98916B70 /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,7 +766,6 @@
 				44E769D94F10CE963F02E58472D5B5BA /* ConstraintUtilities+Layout.m in Sources */,
 				CFA55444DFE023AA9A4D0A656297F8F5 /* ConstraintUtilities+Matching.m in Sources */,
 				91EF4A344743E2AFB3B4DBB6696BCF91 /* DeviceJudge.m in Sources */,
-				505821820F0F7B45B33F718D6F1DC2C0 /* LICENSE in Sources */,
 				403C0FA29A558D085611F6A799F09C8B /* license in Sources */,
 				866B81D335FF500FF8469D8DE7197605 /* navigationBarBg.png in Sources */,
 				AF1D9D37928209C90D58A8631153C547 /* NSDictionary+FixNSNull.m in Sources */,
@@ -825,17 +774,12 @@
 				8860579686E156D9F91FDF93505D6451 /* NSString+Extended.m in Sources */,
 				0422F611529DB841B34B45C4B2CAF93F /* NSView+BackgroundColor.m in Sources */,
 				9A06106C9FF8BB342B8E5203130F2684 /* readme.markdown in Sources */,
-				3AB69BF4603A9B1293CC82ADC1B49980 /* README.md in Sources */,
 				790073ED27117E8BB19C8FDD4B263565 /* UIImage+WLCatalog.m in Sources */,
 				EF9C40DA0C3137213897444A2A8218C2 /* UIView+Toast.m in Sources */,
 				9AFF444C347498E157090C0367174FC8 /* View-Nametag.m in Sources */,
 				B863AAA3A6D1A234BFEAF5B24DF3E92F /* WLCommon.m in Sources */,
 				726F4F81058230DC2F4BEC8AF608B23A /* WLKit-dummy.m in Sources */,
 				7B2AA890949467AD2073B8D31707F1C5 /* WLProgressHUD.m in Sources */,
-				9B19DEFCB7A7BA43348FD872E6E2B537 /* YYCache.m in Sources */,
-				D836C353E193AB7D9A8D97FD0E3C554D /* YYDiskCache.m in Sources */,
-				A0B95F73509E29056A976D025EA30F9F /* YYKVStorage.m in Sources */,
-				E6D7BC392EA6F7DC88E61F05C8FA6ACA /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
