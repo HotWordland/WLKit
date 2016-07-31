@@ -1,5 +1,4 @@
 # WLKit
-
 [![CI Status](http://img.shields.io/travis/巫龙/WLKit.svg?style=flat)](https://travis-ci.org/巫龙/WLKit)
 [![Version](https://img.shields.io/cocoapods/v/WLKit.svg?style=flat)](http://cocoapods.org/pods/WLKit)
 [![License](https://img.shields.io/cocoapods/l/WLKit.svg?style=flat)](http://cocoapods.org/pods/WLKit)
@@ -10,6 +9,12 @@
 ```ruby
 pod "WLKit"
 ```
+# 2016-07-31 
+##更新至0.3.0 增加Depends管理{
+  JSONModel,
+  AFNetworking,
+  YYKit
+}
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 WLKit框架 - 布局 网络请求 一些常用扩展类 不断更新
