@@ -10,12 +10,13 @@
 pod "WLKit"
 ```
 # 2016-07-31 
-##更新至0.3.0 增加Depends管理{
+##更新至0.3.0 增加Depends管理
+{
   JSONModel,
   AFNetworking,
   YYKit
 }
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+#To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 WLKit框架 - 布局 网络请求 一些常用扩展类 不断更新
 #布局 - 将一个红色的view 尺寸为100 100 位于视图中心
