@@ -7,7 +7,6 @@
 //
 
 #import "LYHTTPClient.h"
-#import "NSJSONSerialization+LYJSON.h"
 static NSString * const LYHTTPClientURLString = @"https://api.app.net/";
 NSString * const LYHTTPClientRequestCache = @"LYHTTPClientRequestCache";
 static NSTimeInterval const LYHTTPClientTimeoutInterval = 30;

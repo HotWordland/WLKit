@@ -4,15 +4,13 @@
  
  */
 
-#if TARGET_OS_IPHONE
-@import Foundation;
-#elif TARGET_OS_MAC
 #import <Foundation/Foundation.h>
-#endif
+#import <UIKit/UIKit.h>
+#import "NametagUtilities.h"
+
 
 #ifndef VIEW_CLASS
 #if TARGET_OS_IPHONE
-    @import UIKit;
     #define VIEW_CLASS UIView
     #define COLOR_CLASS UIColor
     #define IMAGE_CLASS UIImage

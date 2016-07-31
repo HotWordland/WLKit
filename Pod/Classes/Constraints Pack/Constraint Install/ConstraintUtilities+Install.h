@@ -4,29 +4,26 @@
  
  */
 
-#if TARGET_OS_IPHONE
-@import Foundation;
-#elif TARGET_OS_MAC
 #import <Foundation/Foundation.h>
-#endif
+#import <UIKit/UIKit.h>
 
-#pragma mark - Cross Platform
-#if TARGET_OS_IPHONE
-    @import UIKit;
-#ifndef VIEW_CLASS
-    #define VIEW_CLASS UIView
-#endif
-#ifndef COLOR_CLASS
-    #define COLOR_CLASS UIColor
-#endif
-#elif TARGET_OS_MAC
-#ifndef VIEW_CLASS
-    #define VIEW_CLASS NSView
-#endif
-#ifndef COLOR_CLASS
-    #define COLOR_CLASS NSColor
-#endif
-#endif
+//#pragma mark - Cross Platform
+//#if TARGET_OS_IPHONE
+//    @import UIKit;
+//#ifndef VIEW_CLASS
+//    #define VIEW_CLASS UIView
+//#endif
+//#ifndef COLOR_CLASS
+//    #define COLOR_CLASS UIColor
+//#endif
+//#elif TARGET_OS_MAC
+//#ifndef VIEW_CLASS
+//    #define VIEW_CLASS NSView
+//#endif
+//#ifndef COLOR_CLASS
+//    #define COLOR_CLASS NSColor
+//#endif
+//#endif
 //作为框架的时候 上面的coss Platform定义的内容不会编译(暂时没有查到资料)
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

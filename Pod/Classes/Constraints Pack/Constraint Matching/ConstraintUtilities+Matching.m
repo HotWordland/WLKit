@@ -5,7 +5,6 @@
  */
 
 #import "ConstraintUtilities+Matching.h"
-#import "NametagUtilities.h"
 
 #pragma mark - Named Constraint Support
 @implementation VIEW_CLASS (NamedConstraintSupport)

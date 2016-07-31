@@ -32,7 +32,6 @@
     //在父视图居中
     CENTER(view);
     /*** ***/
-
 }
 
 - (void)didReceiveMemoryWarning {

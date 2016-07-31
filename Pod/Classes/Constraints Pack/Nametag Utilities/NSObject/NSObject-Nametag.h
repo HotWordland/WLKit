@@ -4,12 +4,6 @@
  
  */
 
-#if TARGET_OS_IPHONE
-@import Foundation;
-#elif TARGET_OS_MAC
-#import <Foundation/Foundation.h>
-#endif
-
 #import <Foundation/Foundation.h>
 
 // A nametag is an associated string object that can be assigned to any object.

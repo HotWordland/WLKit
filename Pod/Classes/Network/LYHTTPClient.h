@@ -7,7 +7,8 @@
 //
 
 #import "AFNetworking.h"
-#import "YYCache.h"
+#import "YYKit.h"
+#import "NSJSONSerialization+LYJSON.h"
 typedef NS_ENUM(NSUInteger, LYHTTPClientRequestCachePolicy){
     LYHTTPClientReturnCacheDataThenLoad = 0,///< 有缓存就先返回缓存，同步请求数据
     LYHTTPClientReloadIgnoringLocalCacheData, ///< 忽略缓存，重新请求

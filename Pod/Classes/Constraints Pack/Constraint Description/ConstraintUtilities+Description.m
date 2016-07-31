@@ -6,9 +6,6 @@
  */
 
 #import "ConstraintUtilities+Description.h"
-#import "ConstraintUtilities+Layout.h"
-#import "ConstraintUtilities+Matching.h"
-#import "NSObject-Description.h"
 
 #ifndef UIViewNoIntrinsicMetric
 #define UIViewNoIntrinsicMetric -1

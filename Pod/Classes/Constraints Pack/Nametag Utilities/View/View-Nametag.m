@@ -4,8 +4,7 @@
  
  */
 
-#import "NametagUtilities.h"
-
+#import "View-Nametag.h"
 #pragma mark - Named Views
 @implementation VIEW_CLASS (Nametags)
 // All tags in use

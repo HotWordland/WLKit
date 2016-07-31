@@ -5,7 +5,6 @@
  */
 
 #import "NSObject-Description.h"
-#import "NametagUtilities.h"
 
 @implementation NSObject (DebuggingExtensions)
 // Return 'Class description : hex memory address'
