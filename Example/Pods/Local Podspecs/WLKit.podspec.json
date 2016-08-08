@@ -25,6 +25,12 @@
   "dependencies": {
     "JSONModel": [
 
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "YYKit": [
+
     ]
   },
   "libraries": "sqlite3"

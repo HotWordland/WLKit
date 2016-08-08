@@ -7,7 +7,7 @@
 
 #import "NSObject-Nametag.h"
 
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 @implementation NSObject (Nametags)
 - (id) nametag
