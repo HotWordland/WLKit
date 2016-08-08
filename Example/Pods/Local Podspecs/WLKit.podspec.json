@@ -1,6 +1,6 @@
 {
   "name": "WLKit",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "summary": "Embed once to Quick Develop(一次集成 快速开发)",
   "description": "WL框架 - 包含 布局 网络请求 等一些常用扩展类 ... 不断更新 让项目一次集成常用框架 快速开发.",
   "homepage": "https://github.com/HotWordland/WLKit",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/HotWordland/WLKit.git",
-    "tag": "0.3.0"
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "7.0"

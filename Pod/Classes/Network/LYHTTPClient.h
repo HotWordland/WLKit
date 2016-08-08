@@ -6,8 +6,8 @@
 //  Copyright © 2015年 LianLeven. All rights reserved.
 //
 
-#import "AFNetworking.h"
-#import "YYKit.h"
+#import <AFNetworking/AFNetworking.h>
+#import <YYKit/YYKit.h>
 #import "NSJSONSerialization+LYJSON.h"
 typedef NS_ENUM(NSUInteger, LYHTTPClientRequestCachePolicy){
     LYHTTPClientReturnCacheDataThenLoad = 0,///< 有缓存就先返回缓存，同步请求数据
