@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WLKit"
-  s.version          = "0.3.0"
+  s.version          = "0.3.1"
   s.summary          = "Embed once to Quick Develop(一次集成 快速开发)"
 
 # This description is used to generate tags and improve search results.
