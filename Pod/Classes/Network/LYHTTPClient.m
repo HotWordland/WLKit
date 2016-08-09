@@ -166,6 +166,7 @@ typedef NS_ENUM(NSUInteger, LYHTTPClientRequestType) {
     NSMutableSet *mgrSet = [NSMutableSet set];
     mgrSet.set = client.responseSerializer.acceptableContentTypes;
     [mgrSet addObject:@"text/html"];
+    [mgrSet addObject:@"text/plain"];
     client.responseSerializer.acceptableContentTypes = mgrSet;
    return client;
     
