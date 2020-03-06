@@ -71,6 +71,16 @@
         else \
             InstallConstraints(@[_eachItem], PRIORITY, NAME);\
     }}
+/**
+ align bottom in safearea
+*/
+#define ALIGN_SAFEAREA_BOTTOM(VIEW,OFFSET) {\
+    if (@available(iOS 11.0, *)) {\
+        [NSLayoutConstraint activateConstraints:@[[VIEW.superview.safeAreaLayoutGuide.bottomAnchor constraintEqualToAnchor:VIEW.bottomAnchor constant:OFFSET]]];\
+    } else {\
+        ALIGN_BOTTOM(VIEW, OFFSET);\
+    }\
+}
 
 // Convenience entry point to avoid forcing semaphore at the end
 #define INSTALL_CONSTRAINTS(PRIORITY, NAME, ...) _INSTALL_CONSTRAINTS(PRIORITY, NAME, __VA_ARGS__, nil)
