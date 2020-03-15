@@ -81,6 +81,17 @@
         ALIGN_BOTTOM(VIEW, OFFSET);\
     }\
 }
-
+/**
+ change constraint multiplier
+*/
+#define CHANGE_CONSTRAINT_MULTIPLIER(constraint,mul) ^NSLayoutConstraint *() {\
+    [NSLayoutConstraint deactivateConstraints:@[constraint]];\
+    NSLayoutConstraint *newConstraint = [NSLayoutConstraint constraintWithItem:constraint.firstItem attribute:constraint.firstAttribute relatedBy:constraint.relation toItem:constraint.secondItem attribute:constraint.secondAttribute multiplier:mul constant:constraint.constant];\
+    newConstraint.priority = constraint.priority;\
+    newConstraint.shouldBeArchived = constraint.shouldBeArchived;\
+    newConstraint.identifier = constraint.identifier;\
+    [NSLayoutConstraint activateConstraints:@[newConstraint]];\
+    return newConstraint;\
+}()
 // Convenience entry point to avoid forcing semaphore at the end
 #define INSTALL_CONSTRAINTS(PRIORITY, NAME, ...) _INSTALL_CONSTRAINTS(PRIORITY, NAME, __VA_ARGS__, nil)
