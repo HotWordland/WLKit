@@ -3,7 +3,7 @@
 //  LYHttpClient
 //
 //  Created by lichangwen on 15/12/28.
-//  Copyright © 2015年 LianLeven. All rights reserved.
+//  Copyright © 2015年 Ryzen. All rights reserved.
 //
 
 #import "LYHTTPClient.h"
@@ -113,15 +113,15 @@ typedef NS_ENUM(NSUInteger, LYHTTPClientRequestType) {
                                cacheKey:(NSString *)cacheKey
                                 success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                                 failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure{
-     LYHTTPClient *manager = [LYHTTPClient sharedClient];
-     [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
-     manager.requestSerializer.timeoutInterval = timeoutInterval;
-     [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
+    LYHTTPClient *manager = [LYHTTPClient sharedClient];
+    [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
+    manager.requestSerializer.timeoutInterval = timeoutInterval;
+    [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
     switch (type) {
         case LYHTTPClientRequestTypeGET:{
-            return [manager GET:URLString parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+            return [manager GET:URLString parameters:parameters headers:@{} progress:^(NSProgress * _Nonnull downloadProgress) {
                 
-            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                 if ([responseObject isKindOfClass:[NSData class]]) {
                     responseObject = [NSJSONSerialization objectWithJSONData:responseObject];
                 }
@@ -133,9 +133,9 @@ typedef NS_ENUM(NSUInteger, LYHTTPClientRequestType) {
             break;
         }
         case LYHTTPClientRequestTypePOST:{
-            return [manager POST:URLString parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+            return [manager POST:URLString parameters:parameters headers:@{} progress:^(NSProgress * _Nonnull uploadProgress) {
                 
-            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                 if ([responseObject isKindOfClass:[NSData class]]) {
                     responseObject = [NSJSONSerialization objectWithJSONData:responseObject];
                 }
