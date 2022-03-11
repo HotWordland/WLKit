@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WLKit"
-  s.version          = "0.3.7"
+  s.version          = "0.3.8"
   s.summary          = "Embed once to Quick Develop(一次集成 快速开发) 其中由于YYKit维护情况,目前需要在项目中指定为 :git => https://github.com/HotWordland/YYKit"
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'  
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 4.0.1'
   s.dependency 'YYKit'
 
   s.library = 'sqlite3'
